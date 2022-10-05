@@ -43,7 +43,7 @@ Toolkit.run(async (tools): Promise<void> => {
     const message = getCommitMessage(tools, build, tagPrefix, skipCi);
 
     await setVersionProperties(fs, tools, build.version);
-    await setGitIdentity(tools);
+    // await setGitIdentity(tools);
     // await createCommit(tools, message);
     // await pushChanges(tools, build.name, true);
 
