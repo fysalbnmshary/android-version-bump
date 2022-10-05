@@ -44,8 +44,8 @@ Toolkit.run(async (tools): Promise<void> => {
 
     await setVersionProperties(fs, tools, build.version);
     await setGitIdentity(tools);
-    await createCommit(tools, message);
-    await pushChanges(tools, build.name, true);
+    // await createCommit(tools, message);
+    // await pushChanges(tools, build.name, true);
 
     console.log(`::set-output name=new_tag::${build.name}`);
 
