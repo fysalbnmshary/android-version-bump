@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oflynned/android-version-bump.git"
+    "url": "git+https://github.com/tiendung717/android-version-bump.git"
   },
   "keywords": [
     "android",
@@ -27,7 +27,7 @@
     "version",
     "release"
   ],
-  "author": "oflynned",
+  "author": "tiendung717",
   "license": "MIT",
   "dependencies": {
     "@octokit/core": "^3.5.1",
