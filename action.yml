@@ -1,5 +1,5 @@
-name: 'Android Version Bump'
-author: 'oflynned'
+name: 'Android Version Bump Automatically'
+author: 'tiendung717'
 description: 'GitHub action for bumping Gradle versions using semantic commits'
 runs:
   using: docker
